@@ -11,6 +11,12 @@ body {
 
 .header {
     background: #1F2937;
+    display: flex;
+    flex: 1;
+}
+
+.killer, ul {
+    display: flex;
 }
 
 
