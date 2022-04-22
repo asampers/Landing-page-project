@@ -115,8 +115,19 @@ a {
     text-decoration: none;
 }
 
-button, 
 .fourth-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3882F6;
+    margin: 50px auto;
+    padding: 25px;
+    max-width: 850px;
+}
+
+button, 
+.want-more,
+.action {
     background: #3882F6;
     color: #F9FAF8;
 }
