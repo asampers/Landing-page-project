@@ -54,6 +54,24 @@ img {
     max-width: 300px;
     height: auto;
 }
+
+.third-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 50px;
+    max-width: 850px;
+    font-size: 36px;
+    color: #1F2937;
+    background: #E5E7EB;
+}
+.attribute {
+    display: flex;
+    align-self: flex-end;
+    padding-top: 10px;
+}
 h1, .killer {
     color: #F9FAF8;
 }
