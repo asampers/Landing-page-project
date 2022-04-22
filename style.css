@@ -59,6 +59,7 @@ h2 {
 .facts img {
     max-width: 300px;
     height: auto;
+    border-radius: 10%;
 }
 
 .third-part {
