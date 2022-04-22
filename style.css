@@ -121,20 +121,18 @@ a {
     align-items: center;
     background: #3882F6;
     margin: 50px auto;
-    padding: 25px;
+    padding: 25px 50px;
     max-width: 850px;
-}
-
-button, 
-.want-more,
-.action {
     background: #3882F6;
     color: #F9FAF8;
+    gap: 200px;
 }
 
 button {
     border-style: solid;
     border-color:#F9FAF8;
+    background: #3882F6;
+    color: #F9FAF8;
     text-align: center;
     text-decoration: none;
     margin: 4px 2px;
