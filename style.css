@@ -13,9 +13,7 @@ body {
     flex: row;
     justify-content: space-between;
     align-content: center;
-    padding: 50px;
-
-    
+    padding: 50px; 
 }
 
 ul {
@@ -38,7 +36,24 @@ ul {
     max-width: 500px; 
 }
 
+h2 {
+    display: flex;
+    justify-content: center;
+}
 
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 52px;
+}
+.facts {
+    max-width: 300px;
+}
+img {
+    max-width: 300px;
+    height: auto;
+}
 h1, .killer {
     color: #F9FAF8;
 }
