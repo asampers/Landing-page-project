@@ -25,15 +25,16 @@ ul {
 
 .container2 {
     display: flex;
-    flex: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: center;
     padding: 50px;
+    margin: auto;
+    gap: 70px;
 
 }
 
 .top-para {
-    max-width: 500px; 
+    max-width: 550px; 
 }
 
 .container2 img {
