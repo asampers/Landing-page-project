@@ -24,8 +24,15 @@ ul {
 .container2 {
     display: flex;
     flex: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
+    padding: 50px;
+    gap: 50px;
+
+}
+
+.top-para {
+    max-width: 500px; 
 }
 
 
