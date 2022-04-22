@@ -8,15 +8,19 @@ body {
     align-items: center;
 }
 
-
 .header {
     background: #1F2937;
+}
+
+.container {
     display: flex;
-    flex: 1;
+    flex: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .killer, ul {
-    display: flex;
+    
 }
 
 
