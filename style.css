@@ -160,7 +160,12 @@ button {
 }
 
 button.top-button {
-    background:hsl(215, 28%, 17%);
+    background:#1f2937;
     display: flex;
-    justify-content: flex-end;
+    justify-items: flex-end;
+}
+
+.thank-you {
+    margin: auto;
+    padding-left: 117px;
 }
