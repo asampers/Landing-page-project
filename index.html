@@ -9,13 +9,13 @@
 </head>
 <body>
     <!--First part of site-->
-    <div class="header">
+    <div id="top" class="header">
         <div class="container">    
             <div class="killer">Killer Whale Facts</div>
             <ul>
-                <li><a href="#">Facts</a></li>
-                <li><a href="#">Quote</a></li>
-                <li><a href="#">More Facts!</a></li>
+                <li><a href="#facts">Facts</a></li>
+                <li><a href="#quote">Quote</a></li>
+                <li><a href="#more-facts">More Facts!</a></li>
             </ul>
         </div>
         <div class="container2">
@@ -27,13 +27,13 @@
                     with your limited knowledge of these majestic
                     ocean predators.
                 </p>
-                <button><a href="#">Want more facts?</a></button>
+                <button><a href="#more-facts">Want more facts?</a></button>
             </div>  
             <img src="./img/whale1.jpg" alt="two whales kissing">
         </div>
     </div>
     <!--Second part of site-->    
-    <h2>Some Killer Whale Facts</h2>
+    <h2 id="facts">Some Killer Whale Facts</h2>
     <div class="container3">
         <!--The img width is just a place holder for now-->
         <div class="facts">
@@ -55,7 +55,7 @@
     </div>
     <!--Third part of site (quote)-->
     <div class="third-part">
-        <div class="quote">There are so many creatures in the vast
+        <div id="quote" class="quote">There are so many creatures in the vast
         ocean world that want to be your friend. It's up to you to 
         choose. And if I were you, I'd choose the killer whale, every time.</div>
         <div class="attribute">- Anna Sampers, ocean enthusiast</div>
@@ -63,14 +63,15 @@
     <!--Fourth part of the site-->
     <div class="fourth-part">
         <div class="more-action">
-            <div class="want-more">Want more killer whale facts? You got it!</div>
+            <div id="more-facts" class="want-more">Want more killer whale facts? You got it!</div>
             <div class="action">There's a whole ocean of knowledge out there. Access more facts by clicking that button over there!</div>
          </div>  
-        <button><a href="#">Get more facts!</a></button>
+        <button><a href="https://en.wikipedia.org/wiki/Orca" target="_blank" rel="noopener noreferrer">Get more facts!</a></button>
     </div>
     <!--Footer-->
     <div class="footer">
         <div>Thank you for learning.</div>
+        <button class="top-button"><a href="#top">Back to Top</a></button>
     </div>
 </body>
 </html>
