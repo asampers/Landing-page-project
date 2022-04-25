@@ -166,9 +166,10 @@ button.top-button {
     background:#1f2937;
     display: flex;
     justify-items: flex-end;
+    margin-right: 30px;
 }
 
 .thank-you {
     margin: auto;
-    padding-left: 117px;
+    padding-left: 137px;
 }
